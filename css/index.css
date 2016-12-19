@@ -1,0 +1,202 @@
+#box{
+    overflow: hidden;}
+
+.header{
+    height: 3rem;
+    width: 16rem;
+    background:#344a61;
+    overflow: hidden;
+    display: -webkit-box;
+}
+.header .menu a{display: block;
+    float: left;
+    text-indent: -9999em;
+    width: 3rem;
+    height: 3rem;
+    background: url("../images/menu.png") no-repeat center center;
+    border-right: 1px solid #4c6279;
+}
+.header .h3{
+    -webkit-box-flex: 1;
+}
+.header .Email{}
+.header .h3 p{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 3rem;
+    color:#fff;
+}
+.header .Email a {
+    float: right;
+    text-indent: -9999em;
+    width: 3rem;
+    height: 3rem;
+    background: url("../images/E-Mail.png") no-repeat center center;
+    background: url("../images/E-Mail.png") no-repeat center center;
+    border-left: 1px solid #4c6279;
+}
+.cont{
+    width: 14rem;margin: auto; }
+.cont h4{
+    color:#c8c8c8;
+    width: 14rem;
+    font-size:0.45rem;
+    height:2.1rem;
+    line-height: 2.1rem;
+    border-bottom: #e7e7e7 solid 1px;
+}
+.cont .slider{
+    margin-top:0.95rem ;
+    width:100%;
+    height: 9.3rem;background:orange}
+.cont .h5{font-size:0.45rem;
+    line-height:2.75rem;
+}
+.cont .h5 p{
+    font-weight:normal;
+    color: #595959;
+    line-height: 1rem;
+    padding-bottom:1.15rem;
+    border-bottom:1px solid #e7e7e7;
+}
+.cont .computer{padding-top:1rem; overflow: hidden;
+display: -webkit-box;
+    padding-bottom:1rem;
+    border-bottom:1px solid #e7e7e7;
+}
+.cont .computer .PC{
+
+}
+.cont .computer .PC img{width: 4rem;
+    height: 4rem;
+    background:#ccc;
+    display: block;
+}
+.cont .computer .PC .img{
+    margin-top:1rem;
+}
+.cont .computer .introduce{
+    -webkit-box-flex: 1;
+
+    margin-left:1rem;
+    width:100px;
+}
+h5{
+    font-size:  0.5rem;
+}
+.cont .computer .introduce h5{
+    margin-top: 0.25rem ;
+}
+.cont .computer .introduce p{
+
+    font-size:  0.5rem;
+    color:#5b5b5b;
+    line-height:1.05rem;
+}
+.cont .computer .introduce .bullt{
+    margin-top: 0.5rem;
+}
+.mobile{
+    padding-top:1.2rem;
+    border-bottom:1px solid #e7e7e7;
+}
+.mobile p{
+    font-weight:normal;
+    padding-top:1rem;
+    font-size:  0.5rem;
+    color:#5b5b5b;
+    line-height:1.05rem;
+    padding-bottom:1.25rem;
+}
+.mobile .img{
+    overflow: hidden;
+    width: 15rem;
+
+    padding-bottom: 1rem;
+}
+.mobile .img img{
+    float: left;
+    display: block;
+    background:deepskyblue;
+    width: 4rem;
+    height: 4rem;
+    margin:0 1rem 1rem 0;
+}
+.name{margin-top: 1.25rem;}
+.name h5 p{
+    font-size:  0.5rem;
+    font-weight:normal;
+    color:#5b5b5b;
+    line-height:1.05rem;
+    padding-top:0.5rem;
+}
+.photo{padding-top:1rem;/*display: -webkit-box;
+    -webkit-box-orient:horizontal;*/
+    overflow: hidden;
+    padding-bottom:1rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+.photo img{
+    float: left;
+    width: 4rem;
+    height: 4rem;
+    background:green;
+}
+.photo p{
+    padding-left:1rem;
+    line-height: 1rem;
+    font-size:0.5rem;
+    width: 9rem;
+    float: left;
+    font-weight:normal;
+    color:#545454;
+}
+.photo span{
+    padding-top:0.25rem;
+    font-weight:bold;
+    font-style: italic;
+    float: right;
+    font-size:0.5rem;text-align: right;
+}
+.get{
+    text-align: center;}
+.get h5{
+    padding-top:1.25rem;
+    padding-bottom:0.75rem;}
+.get p{font-size:0.5rem;color:#545454;
+    line-height: 1rem;
+}
+.src{display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack:center;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-bottom:1px solid #e7e7e7;
+}
+.src img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #ff8b26;
+}
+.cont-footer{padding:1rem 0;}
+.cont-footer h5{ color:#989898;text-align: center;
+    line-height: 1rem;
+}
+.footer{background:#000;}
+.footer ul{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+.footer ul li{
+
+    width: 1rem;
+    height: 1rem;
+    background:orange;
+    margin:0.5rem;
+}
+.footer h5{color:#fff;
+    text-align: center;
+    padding-bottom:0.5rem;
+}
